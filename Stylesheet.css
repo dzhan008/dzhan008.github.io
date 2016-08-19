@@ -1,0 +1,98 @@
+
+body
+{
+  background-color: lightgrey;
+}
+
+header
+{
+  background: oldlace;
+}
+
+footer
+{
+  background: green;
+}
+
+h1
+{
+  color: cadetblue;
+  font-size:30pt;
+  text-align:center;
+}
+
+h2
+{
+  color: Red;
+  text-align:center;
+}
+
+div.bar
+{
+  margin-top: 400px;
+  width: 100%;
+}
+
+div.block
+{
+  float:left;
+  height: 40%;
+  width: 40%;
+  background: aliceblue;
+}
+
+div.blockr
+{
+  float:right;
+  height: 40%;
+  width: 40%;
+  background: aliceblue;
+}
+
+div.info
+{
+  background: bisque;
+  height: auto;
+  height: 30%;
+}
+
+/* Style the list */
+
+ul.bigtab
+{
+  height: 10%;
+  list-style-type: none;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Make the list items float to the left */
+ul.bigtab li
+{
+  float: left;
+  display: inline-block;
+  margin: 20px;
+  padding: 12px 15px;
+}
+
+/* Style each element of the list */
+ul.bigtab li a
+{
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Calibri;
+  transition: 0.7s;
+}
+
+/* Change background color of links on hover */
+ul.bigtab li a:hover
+{  background-color: #ddd;}
+/* Change background color of links on focus */
+ul.bigtab li a:focus, .active {background-color: #ccc};
+
+/*Change backgound color when not in focus. NEEDS FIXING*/
+ul.bigtab li a:focus, .inactive {background-color: #f1f1f1};
