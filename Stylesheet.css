@@ -29,7 +29,6 @@ h2
 
 div.bar
 {
-  margin-top: 400px;
   width: 100%;
 }
 
@@ -37,7 +36,7 @@ div.block
 {
   float:left;
   height: 40%;
-  width: 40%;
+  width: 50%;
   background: aliceblue;
 }
 
@@ -45,12 +44,13 @@ div.blockr
 {
   float:right;
   height: 40%;
-  width: 40%;
+  width: 50%;
   background: aliceblue;
 }
 
 div.info
 {
+  margin-top: 300px;
   background: bisque;
   height: auto;
   height: 30%;
