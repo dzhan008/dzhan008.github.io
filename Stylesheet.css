@@ -1,3 +1,22 @@
+/*Declare Fonts Here*/
+@font-face {font-family: "Neuropolitical"; src: url('Fonts/neuropolitical.tff');}
+@font-face
+{
+  font-family: "Monaco";
+  src: url('Fonts/Monaco.tff') format('truetype');
+  src: url('Fonts/Monaco.woff') format('woff');
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
 
 body
 {
@@ -6,6 +25,8 @@ body
 
 header
 {
+  font-family: "Monaco", Arial;
+  margin-top: 45px;
   background: oldlace;
 }
 
@@ -17,54 +38,75 @@ footer
 h1
 {
   color: cadetblue;
-  font-size:30pt;
+  font-size: 1000%;
   text-align:center;
+  margin-bottom: 150px;
 }
 
 h2
 {
   color: Red;
+  font-size: 800%;
   text-align:center;
-}
-
-div.bar
-{
-  width: 100%;
-}
-
-div.block
-{
-  float:left;
-  height: 40%;
-  width: 50%;
-  background: aliceblue;
-}
-
-div.blockr
-{
-  float:right;
-  height: 40%;
-  width: 50%;
-  background: aliceblue;
 }
 
 div.info
 {
-  margin-top: 300px;
+  display: inline-block;
   background: bisque;
-  height: auto;
-  height: 30%;
+  font-size: 30px;
+  width: 73.5%;
+}
+
+div.portfolio
+{
+  background: aliceblue;
+  font-size: 30px;
+  width: 100%;
+}
+
+div.contact
+{
+  background: oldlace;
+  font-size: 30px;
+  width: 100%;
+}
+
+div.bar
+{
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+div.resume
+{
+  text-align: center;
+}
+
+div.resume a:hover
+{
+  background-color: black;
+}
+
+
+img
+{
+  vertical-align: top;
+  display: inline-block;
 }
 
 /* Style the list */
 
 ul.bigtab
 {
-  height: 10%;
+  height: 20%;
   list-style-type: none;
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  background-color: rgba(50, 53, 54, .9);
 }
 
 /* Make the list items float to the left */
@@ -72,14 +114,14 @@ ul.bigtab li
 {
   float: left;
   display: inline-block;
-  margin: 20px;
-  padding: 12px 15px;
+  margin: 5px;
+  padding: 5px 18px;
 }
 
 /* Style each element of the list */
 ul.bigtab li a
 {
-  color: black;
+  color: #CED8DB;
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;
@@ -90,7 +132,7 @@ ul.bigtab li a
 
 /* Change background color of links on hover */
 ul.bigtab li a:hover
-{  background-color: #ddd;}
+{  background-color: #4E5152;}
 /* Change background color of links on focus */
 ul.bigtab li a:focus, .active {background-color: #ccc};
 

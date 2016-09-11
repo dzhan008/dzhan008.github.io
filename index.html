@@ -1,46 +1,104 @@
 <!DOCTYPE html>
 <html lang ="en-AU">
 
-	<head>
-		<link rel="stylesheet" type="text/css" href="Stylesheet.css">
-        <link rel="icon" href="test.jpg"/>
-		</style>
-		<!-- TABS HERE -->
-<div class="bar">
-		<ul class="bigtab">
-			<li><a href="Home.html" class="tablinks" onclick ="">About</a></li>
-			<li><a href="Portfolio.html" class="tablinks" onclick="">Portfolio</a></li>
-			<li><a href="Blog.html" class="tablinks" onclick="">Resume</a></li>
-			<li><a href="Blog.html" class="tablinks" onclick="">Blog</a></li>
-			<li><a href="Blog.html" class="tablinks" onclick="">Contact</a></li>
-		</ul>
-</div>
 
+	<head>
+		<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
+
+		<script>
+		$(document).on('click', 'a[href^="#"]', function(e)
+		{
+			var id = $(this).attr('href');
+			var offset = 45;
+			var $id = $(id);
+			if($id.length === 0)
+			{
+				return;
+			}
+			e.preventDefault();
+			var pos = $(id).offset().top;
+
+			$('body, html').animate({scrollTop: pos - offset});
+
+		});
+		</script>
+		<link rel="stylesheet" type="text/css" href="Portfolio.css">
+		<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+    <link rel="icon" href="test.jpg"/>
 	</head>
 			<title>David's Website</title>
 		<meta charset="UTF-8">
 <body>
 
-	<header>
-			<h1> David Zhang </h1>
-			<h2>Programmer, Pro LoL Streamer, and Avid Sleeper. </h2>
+	<!-- TABS HERE -->
+<div class="bar">
+	<ul class="bigtab">
+		<li><a href="#info" class="tablinks" onclick ="">About</a></li>
+		<li><a href="#portfolio" class="tablinks" onclick="">Portfolio</a></li>
+		<li><a href="#contact" class="tablinks" onclick="">Contact</a></li>
+		<li><a href="Blog.html" class="tablinks" onclick="">Blog</a></li>
+	</ul>
+</div>
+
+<header>
+			<h1><p> My name is </p> <p> David Zhang </p> </h1>
+			<h2><p>Avid Programmer</p> <p>Designer</p> </h2>
 </header>
 
-<div class="block">
-Some picture and introductory text here
+
+<img src="Me.jpg" width= 500 height= 500>
+
+</img>
+
+<div id="info" class="info">
+	<p><b>About Me</b></p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius metus turpis, vitae ullamcorper felis fringilla luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Ut convallis lacinia mollis. Nullam sed aliquet lectus. Duis dictum mi at nibh pellentesque, id mollis augue pharetra. Vestibulum molestie rutrum dolor eu gravida. Mauris porta turpis eros, sit amet egestas massa efficitur a. Vestibulum euismod dui eget ante dictum sagittis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam posuere dolor nec metus tempor porttitor. Nunc vel leo ut sem commodo molestie at tincidunt neque.
 </div>
 
-<div class="blockr">
-Some picture and introductory text here
+<div id="portfolio" class="portfolio">
+<p><b>Portfolio</b></p>
+
+<div class="img" id="test_trigger">
+<a target="_blank">
+  <img src="test.jpg" alt="test">
+  <div class="title">My Desktop Background</div>
 </div>
 
-
-
-<div class="info">
-Information about me here
+<div class="img">
+<a target="_blank">
+  <img src="mirrorsedge.jpg" alt="test">
+  <div class="title">Mirror's Edge Catalyst</div>
 </div>
 
+<div class="img">
+<a target="_blank">
+  <img src="subaru.jpg" alt="test">
+  <div class="title">Subaru's Suffering</div>
+</div>
 
+<div class="img">
+<a target="_blank">
+  <img src="assassinscreed.jpg" alt="test">
+  <div class="title">Assassin's Creed 2</div>
+</div>
+
+<div class="resume"><a href="Portfolio.html">Resume</a></div>
+</div>
+
+<div id="contact" class="contact">
+<p><b>Contact<b></p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate odio id urna facilisis auctor. Phasellus mollis vel neque in elementum. Sed dapibus felis odio, non convallis ex volutpat vitae. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque non risus sed leo viverra rutrum a at lacus. Suspendisse sit amet magna pretium, dictum metus sit amet, consequat enim. Maecenas scelerisque vitae ante at convallis. Nunc rhoncus ante eu ultricies commodo. Integer massa sapien, varius et leo eget, vulputate consectetur ex.
+
+	Etiam vel vestibulum enim. Mauris efficitur, turpis gravida pretium pellentesque, tortor justo pulvinar erat, eget tincidunt enim orci nec turpis. Praesent ac urna eros. Ut vel ex sapien. Morbi eu neque lectus. Pellentesque sed nibh mauris. Vestibulum pharetra tortor nunc, ut lacinia tortor pharetra ut. Phasellus tincidunt mauris in arcu mollis rhoncus. Ut venenatis purus faucibus ligula mollis, eu luctus risus tristique.
+
+	Nulla a lectus dictum, tincidunt est non, auctor turpis. Nullam sit amet magna non magna dapibus eleifend sit amet eget diam. Donec porta tincidunt massa nec dictum. Etiam tempor dapibus ante, et molestie lacus auctor nec. Duis aliquet sodales massa, non mattis ante laoreet in. Vestibulum tincidunt quam tortor, nec pharetra erat suscipit sit amet. Nam vulputate egestas quam non dapibus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Ut viverra, quam vel dignissim laoreet, ex lorem vulputate risus, a commodo libero ante eu arcu. Nulla eget lectus est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sed metus sed ante fermentum bibendum et mattis enim. Mauris vitae arcu sit amet augue varius fringilla.
+
+	Fusce sodales fermentum purus et mollis. Cras posuere arcu et lacus blandit, vel imperdiet dolor lobortis. Phasellus placerat odio vitae arcu rutrum, id venenatis sem eleifend. Ut at lobortis leo. Vivamus porta aliquet vulputate. Maecenas et euismod dolor. Aenean egestas auctor est, non consequat dolor tempus in. Mauris sit amet orci purus. Ut id lectus ac ligula sagittis porttitor. Proin non aliquam nunc. In sed accumsan diam. Pellentesque fringilla porta ex at suscipit. Nulla facilisi. Donec vel tempus purus. Nulla commodo blandit fringilla. In feugiat nisl vitae ornare iaculis.
+
+	Fusce vel mi sit amet dolor maximus consequat. Praesent ullamcorper, dolor a viverra condimentum, purus leo cursus nulla, in vestibulum arcu tortor cursus tellus. Donec posuere convallis neque vel tristique. Duis blandit faucibus quam, in tincidunt velit hendrerit eget. Ut eu faucibus ante. Nulla eu dolor tristique, imperdiet lorem vitae, varius urna. Proin eros ligula, pretium nec sapien id, congue molestie lorem. Vestibulum nulla ante, facilisis a nisl porta, vehicula aliquet orci. Suspendisse vitae augue vitae mi dictum cursus a efficitur dolor. Sed dictum porta iaculis.
+</div>
+
+<script src="Scripts/Portfolio.js"></script>
 		</body>
 
 		<footer>
