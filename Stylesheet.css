@@ -20,14 +20,14 @@
 
 body
 {
-  background-color: lightgrey;
+  background: rgba(134, 145, 172, 1);
 }
 
 header
 {
   font-family: "Monaco", Arial;
   margin-top: 45px;
-  background: oldlace;
+  //background: oldlace;
 }
 
 footer
@@ -37,7 +37,7 @@ footer
 
 h1
 {
-  color: cadetblue;
+  color: Silver;
   font-size: 1000%;
   text-align:center;
   margin-bottom: 150px;
@@ -45,11 +45,28 @@ h1
 
 h2
 {
-  color: Red;
+  color: Silver;
   font-size: 800%;
   text-align:center;
 }
 
+/* Make the list items float to the left */
+/* Style each element of the list */
+ul.tab li
+{ float: left;
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+
+div.wrapper
+{
+	text-align: center;
+}
+  
 div.info
 {
   display: inline-block;
@@ -60,14 +77,14 @@ div.info
 
 div.portfolio
 {
-  background: aliceblue;
+  //background: aliceblue;
   font-size: 30px;
   width: 100%;
 }
 
 div.contact
 {
-  background: oldlace;
+  //background: oldlace;
   font-size: 30px;
   width: 100%;
 }
