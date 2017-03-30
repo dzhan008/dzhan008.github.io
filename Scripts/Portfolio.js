@@ -1,15 +1,12 @@
 //Get the modal
-var  modal = document.getElementById("ModalTest");
+var  modal = document.getElementById("InfoModal");
+var modalHeader = document.getElementById("Modal_Header");
+var modalText = document.getElementById("Modal_Description");
 
 var images = document.getElementsByClassName("img");
 
-var modalText = document.getElementById("Modal_Description");
-
 //Get the image
 var img = document.getElementById("test_trigger");
-
-//Get the <span> element
-var span = document.getElementsByClassName("close")[0];
 
 for(var i = 0; i < images.length; i++)
 {
@@ -22,11 +19,6 @@ for(var i = 0; i < images.length; i++)
     }, false);
    }());
 
-}
-//When the user clicks the x button, close the modal.
-span.onclick = function()
-{
-  FadeOut(modal);
 }
 
 window.onclick = function(event)
@@ -67,6 +59,7 @@ function EditText(index)
 {
   if(index == '0')
   {
+    modalHeader.innerHTML = "Hi";
     modalText.innerHTML = "Wow";
   }
   else if(index == '1')

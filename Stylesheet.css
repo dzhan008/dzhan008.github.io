@@ -33,12 +33,15 @@ header
 footer
 {
   background: green;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 h1
 {
   color: Silver;
-  font-size: 1000%;
+  font-size: 200%;
   text-align:center;
   margin-bottom: 150px;
 }
@@ -46,8 +49,13 @@ h1
 h2
 {
   color: Silver;
-  font-size: 800%;
-  text-align:center;
+  font-size: 100%;
+  text-align: center;
+}
+
+h3
+{
+    text-align: center;
 }
 
 /* Make the list items float to the left */
@@ -62,11 +70,15 @@ ul.tab li
   font-size: 17px;
   }
 
-div.wrapper
+div.title_block
 {
-	text-align: center;
+  display: inline-block;
+  background-color: cornflowerblue;
+  font-size: 30px;
+  width: 100%;
+  padding-bottom: 650px;
 }
-  
+
 div.info
 {
   display: inline-block;
@@ -84,7 +96,7 @@ div.portfolio
 
 div.contact
 {
-  //background: oldlace;
+  background: oldlace;
   font-size: 30px;
   width: 100%;
 }
@@ -114,6 +126,53 @@ img
   vertical-align: top;
   display: inline-block;
 }
+
+/* Modal Information */
+/*Background*/
+.modal
+{
+  display: none; /*Keep hidden by default*/
+  opacity: 0;
+  position: fixed; /* Stay in place */
+  z-index = 1; /* Make sure the box is front of everything*/
+  left:0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  overflow:auto;
+  background-color: rgba(0,0,0,0.5); /*Black with opacity*/
+}
+
+.modal-content
+{
+  position: relative;
+  left: 30%;
+  top: 20%;
+  width: 40%;
+  height: 20%;
+  margin: 30px 30px;
+  padding: 0px;
+  border: 1px solid #888;
+  background-color: purple;
+  font-family: Oswald;
+}
+
+.modal-header
+{
+  padding: 10px 16px;
+  background-color: pink;
+  color: black;
+}
+
+/* Modal Content */
+.modal-body
+{
+  background-color:#fefefe;
+  margin: 0px;
+  padding: 20px;
+}
+
+
 
 /* Style the list */
 
