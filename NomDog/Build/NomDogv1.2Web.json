@@ -1,0 +1,13 @@
+{
+"companyName": "Gamespawn",
+"productName": "NomDog",
+"dataUrl": "NomDogv1.2Web.data.unityweb",
+"asmCodeUrl": "NomDogv1.2Web.asm.code.unityweb",
+"asmMemoryUrl": "NomDogv1.2Web.asm.memory.unityweb",
+"asmFrameworkUrl": "NomDogv1.2Web.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
