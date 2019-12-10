@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.693a423b.chunk.css",
+    "main.css": "/static/css/main.1e60d1e5.chunk.css",
     "main.js": "/static/js/main.1ac50db5.chunk.js",
     "main.js.map": "/static/js/main.1ac50db5.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
@@ -8,9 +8,9 @@
     "static/js/2.67e0823b.chunk.js": "/static/js/2.67e0823b.chunk.js",
     "static/js/2.67e0823b.chunk.js.map": "/static/js/2.67e0823b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.b87ec8ead2283aac5b2bcf9a5f2397b9.js": "/precache-manifest.b87ec8ead2283aac5b2bcf9a5f2397b9.js",
+    "precache-manifest.f69da326e21c5595cbc800174cfb1e02.js": "/precache-manifest.f69da326e21c5595cbc800174cfb1e02.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.693a423b.chunk.css.map": "/static/css/main.693a423b.chunk.css.map",
+    "static/css/main.1e60d1e5.chunk.css.map": "/static/css/main.1e60d1e5.chunk.css.map",
     "static/media/styles.css": "/static/media/gilroy_light.c62aded7.otf"
   }
 }
