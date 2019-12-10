@@ -6,9 +6,9 @@ class Projects extends Component {
 
   render() {
     return (
-     <div>
-       <h1 class="header"> Portfolio </h1>
+     <div class="projects">
        <div class="section">
+        <h1 class="header"> Portfolio </h1>
         <h3> Take a look at a few projects I have worked on <Link to="/portfolio">here!</Link> </h3>
         <div class="project-container">
           <div class="project-preview">

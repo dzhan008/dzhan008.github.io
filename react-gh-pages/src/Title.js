@@ -7,6 +7,8 @@ class Title extends Component {
     return (
       <div>
         <p id="name"> David Zhang </p>
+        <p id="description"> Software Engineer </p>
+        <hr width="50%"/>
         <div class="links">
           <a href="https://github.com/dzhan008">
             <img src={process.env.PUBLIC_URL + '/images/github.png'} />
@@ -15,8 +17,6 @@ class Title extends Component {
           <img src={process.env.PUBLIC_URL + '/images/linkedin.ico'} />
           </a>
         </div>
-        <hr width="50%"/>
-        <p id="description"> Software Engineer </p>
       </div>
     )
   }

@@ -5,21 +5,13 @@ class Contact extends Component {
 
   render() {
     return (
-      <div>
-        <h1 class="header"> Contact </h1>
+      <div class="contact">
         <div class="section">
+          <h1 class="header"> Contact </h1>
           <div class="contact-details">
-            <p>Email: davidzhang.zha@gmail.com</p>
-            <p> Phone: 626-716-7186 </p>
-            <p>Social Media </p>
-          </div>
-          <div class="links">
-            <a href="https://github.com/dzhan008">
-              <img src={process.env.PUBLIC_URL + '/images/github.png'} />
-            </a>
-            <a href="https://www.linkedin.com/in/dzhan/">
-            <img src={process.env.PUBLIC_URL + '/images/linkedin.ico'} />
-            </a>
+            <p><img height="50" width="50" src={process.env.PUBLIC_URL + '/images/email.ico'} /> - davidzhang.zha@gmail.com</p>
+            <p><img height="50" width="50" src={process.env.PUBLIC_URL + '/images/linkedin-white.ico'} /> - https://www.linkedin.com/in/dzhan/ </p>
+            <p><img height="50" width="50" src={process.env.PUBLIC_URL + '/images/github-white.ico'} /> - https://github.com/dzhan008 </p>
           </div>
         </div>
       </div>
