@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './css/styles.css'
+import './css/navbar.css'
 
 class Portfolio extends Component {
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {Link, animateScroll as scroll} from "react-scroll"
 import {BrowserRouter, NavLink, Route, Switch} from "react-router-dom"
 import Home from './Home'
 import About from './About'
@@ -12,19 +13,51 @@ class App extends Component {
           <BrowserRouter>
             <nav class="navbar">
               <ul>
-                <li><NavLink exact
+                <li><Link exact
+                    activeClass="active"
                     activeStyle={{color: '#2a2f33'}}
-                    to="/">
-                    HOME</NavLink></li>
-                <li><NavLink exact
+                    to="title-section"
+                    spy={true}
+                    smooth={true}
+                    offset={-100}
+                    duration={500}>
+                    HOME</Link></li>
+                <li><Link exact
+                    activeClass="active"
                     activeStyle={{color: '#2a2f33'}}
-                    to="/portfolio">
-                    PORTFOLIO</NavLink></li>
+                    to="about-section"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                    ABOUT</Link></li>
+                <li><Link exact
+                    activeClass="active"
+                    activeStyle={{color: '#2a2f33'}}
+                    to="projects-section"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                    PORTFOLIO</Link></li>
+                <li><Link exact
+                    activeClass="active"
+                    activeStyle={{color: '#2a2f33'}}
+                    to="contact-section"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                    CONTACT</Link></li>
                 <li><NavLink exact
                     activeStyle={{color: '#2a2f33'}}
                     to={process.env.PUBLIC_URL + 'resume.pdf'}
                     target="_blank">
                     RESUME</NavLink></li>
+                <li><NavLink exact
+                    activeStyle={{color: '#2a2f33'}}
+                    to="/portfolio">
+                    More Projects</NavLink></li>
                 <div class="underbar"></div>
               </ul>
             </nav>

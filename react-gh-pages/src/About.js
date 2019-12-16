@@ -5,12 +5,11 @@ class About extends Component {
 
   render() {
     return (
-      <div class="about">
+      <div class="about block" id="about-section">
         <div class="section">
-          <h1 class="header"> About </h1>
-          <p id="about"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent auctor neque eget interdum ultricies. Duis sollicitudin lectus id tortor dictum fringilla. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec libero purus, blandit vel placerat at, faucibus maximus nulla. Aenean non leo sit amet erat luctus gravida. Vivamus quis nisi eget felis efficitur mollis at sed elit. Vivamus eu elementum magna. Sed vel odio in ex cursus fermentum at ac purus. Suspendisse potenti. Phasellus sodales scelerisque tortor eu suscipit. Suspendisse vel tristique lectus. Nam at ex ante. Maecenas ultricies pulvinar lacinia.
-
-Aliquam ultricies lorem eu magna aliquet, ornare ultrices ipsum placerat. Sed non consectetur eros. In eget porta nulla. Donec at odio fringilla, viverra ligula id, rhoncus magna. Proin vel justo vel tortor molestie sagittis. Vivamus mollis, ligula sagittis malesuada aliquet, mi augue suscipit lorem, vitae ornare justo libero sit amet diam. Donec quis urna pretium, rutrum magna id, placerat felis. Fusce sed semper urna. In hac habitasse platea dictumst. Pellentesque quis malesuada purus, non viverra lorem. Maecenas felis orci, porttitor ac sodales vitae, sodales nec est. Pellentesque eu tempus nisl, vitae placerat risus. Nam iaculis ante nec consectetur tristique. Sed eu commodo nibh. Ut rhoncus eros vitae elit aliquam, et scelerisque velit vulputate. Nam et justo non augue luctus semper eu sit amet sapien. </p>
+          <h1 class="header"> Once Upon a Time... </h1>
+          <p id="about"> There was once a young programmer named David Zhang. He was first exposed to code back in 2011 when he first joined a robotics team during high school. From there, he enrolled into University of California, Riverside and discovered his passion for creating video games and software development. Enamored by what people can do by combining design, code, and perserverance, David worked on projects he loved alongside amazing companions in the teams he collaborated with. Throughout his college life he engaged himself in different projects through passion projects, hackathons, game jams, research, and an internship. Learn more about him here!</p>
+          <p id="about">David is currently based in Seattle Washington and works at Amazon as a software development engineer. If you are nearby, feel free to contact him and say hello! </p>
       </div>
       </div>
     )

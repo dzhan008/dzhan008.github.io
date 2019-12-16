@@ -1,80 +1,6 @@
-/* Navbar css */
+/* Common Section CSS */
 
-.navbar ul {
-  list-style-type: none;
-  background-color: #4c5f8a;
-  position: fixed;
-  margin: 0;
-  padding: 0;
-  top: 0;
-  width: 100%;
-  padding: 0px 200px 0px 200px;
-}
-
-.underbar {
-  width: 0px;
-  height: 5px;
-  background: rgba(100,100,200,0);
-  left: 100px;
-  top: 43px;
-  position: absolute;
-  -webkit-transition: 0.5s ease;
-}
-
-.navbar li {
-  float: left;
-  -webkit-transition: 0.5s ease;
-  cursor: pointer;
-}
-
-  .navbar li:nth-of-type(1):hover ~ .underbar {
-   left: 206px;
-    width: 35px;
-    height: 3px;
-    background: rgba(187,223,252,0.8);
-    box-shadow: 0 0 10px rgba(222,225,233,1);
-  }
-
-  .navbar li:nth-of-type(2):hover ~ .underbar {
-   left: 305px;
-    width: 50px;
-    height: 3px;
-    background: rgba(150,250,250,0.5);
-    box-shadow: 0 0 10px rgba(70,250,250,1);
-  }
-
-  .navbar li:nth-of-type(3):hover ~ .underbar {
-   left: 428px;
-    width: 40px;
-    height: 3px;
-    background: rgba(252,187,208,0.8);
-    box-shadow: 0 0 10px rgba(255,227,236,1);
-  }
-
-.navbar li a {
-  display: block;
-  padding: 20px 40px 20px 0px;
-  text-align: center;
-  text-decoration: none;
-  font-weight: bold;
-  color: white;
-}
-
-/* Title css */
-#name {
-  font-family: "Pavanam";
-  font-size: 80pt;
-  text-align: center;
-  margin: 100px 0px 0px 0px;
-}
-
-#description {
-  font-family: "Pavanam";
-  font-size: 50pt;
-  text-align: center;
-  margin: 20px 0px 20px 0px;
-}
-
+/*The title of each section */
 .header {
   font-family: "Gilroy";
   font-size: 35pt;
@@ -82,22 +8,46 @@
   margin-top: 0px;
 }
 
-.links {
-  text-align: center;
+/* The block that defines the section itself. */
+.block {
+  height: 100vh;
+  width: 100vw;
 }
 
-.links img {
-  margin-right: 20px;
-}
-
+/*The surrounding content inside of a block*/
 .section {
-  padding: 0px 200px 0px 200px;
+  padding: 200px 200px 0px 200px;
 }
 
-/* About css */
+
+/******** Title ********/
+
+.title-page {
+  background-color: #586069;
+  padding-top: 200px;
+}
+
+#name {
+  font-family: "Pavanam";
+  font-size: 80pt;
+  color: white;
+  text-align: center;
+  margin: 100px 0px 0px 0px;
+  word-spacing: 0px;
+}
+
+#description {
+  font-family: "Pavanam";
+  font-size: 50pt;
+  color: white;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+/******** About ********/
 .about {
-  padding: 300px 0px 300px 0px;
-  background-color: #cafae4;
+  /* padding: 15% 0px 15% 0px;*/
+  background-color: #4d4f6b;
 }
 
 #about {
@@ -106,39 +56,63 @@
   margin-bottom: 0px;
 }
 
-/* Project css */
+/******** Project ********/
 
 .projects {
-  padding: 50px 0px 50px 0px;
-  background-color: #f1f2d0;
+  background-color: #afb096;
 }
 
 .project-container {
-  text-align: center;
+  height: auto;
+  width: auto;
 }
 
 .project-preview {
-  margin-right: 3%;
+  margin: 0;
   display: inline-block;
-  height: 20%;
-  width: 20%;
+  position: relative;
+  overflow: hidden;
+  vertical-align: bottom;
 }
 
+
 .project-preview img {
+  display: block;
   max-height: 100%;
   max-width: 100%;
 }
 
-.project-preview .title {
-  font-family: 'FFMeta';
-  font-size: 20pt;
-  font-weight: bold;
+.project-preview .text-box {
+ color: white;
+ font-size: 10pt;
+ position: absolute;
+ top: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: .3s ease;
 }
 
-.project-preview .icon {
-  max-height: 8%;
-  max-width: 8%;
-  margin-right: 2%;
+.project-preview .title {
+  font-family: 'FFMeta';
+  font-size: 15pt;
+  text-align: center;
+}
+
+.project-preview .description {
+  font-family: 'FFMeta';
+  font-size: 10pt;
+  margin-top: 100px;
+  -webkit-transition: 0.3s ease;
+}
+
+.project-preview:hover .text-box {
+ opacity: 1;
+ background-color: rgba(0,0,0,0.3);
+}
+
+.project-preview:hover .description {
+  margin-top: 0px;
 }
 
 .project-preview .buttons {
@@ -146,12 +120,23 @@
 }
 
 .project-preview .description {
+  text-align: center;
   font-family: "FFMeta";
 }
 
 /* Portfolio */
 
-.tag {
+.project-preview .button {
+  border-width: thin;
+  border-style: solid;
+  border-color: white;
+  background-color: rgb(0,0,0,0);
+  color: white;
+  padding: 5px 5px 5px 5px;
+  font-weight: 500;
+}
+
+.project-preview .tag {
   border-radius: 10px;
   background-color: #1c2d45;
   color: white;
@@ -159,16 +144,30 @@
   font-weight: 500;
 }
 
-/* Contact */
+/******** Contact ********/
 
 .contact {
   background-color: #2e3036;
   color: white;
-  padding: 50px 0px 50px 0px;
 }
 
 .contact-details {
   font-size: 20pt;
+}
+
+.contact-details img {
+  vertical-align: middle;
+  margin-right: 1%;
+}
+
+.contact-details a:link {
+  color: white;
+  text-decoration: none;
+}
+
+.contact-details a:visited {
+  color: white;
+  text-decoration: none;
 }
 
 /* Font */
