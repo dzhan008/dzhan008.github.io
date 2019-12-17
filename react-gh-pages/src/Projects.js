@@ -56,15 +56,17 @@ class Projects extends Component {
        <div class="section">
         <h1 class="header"> And he worked on these creations... </h1>
         <div class="project-container" id="project-container">
-          
+
           <div class="project-preview">
             <img src={process.env.PUBLIC_URL + '/images/resonance.png'} />
             <div class="text-box">
               <div class="title">Resonance <hr width="40"/></div>
               <div class="description">
-                  <p>Isometric puzzle game.</p>
-                  <p>
-                    <span class="button">Demo</span> <span class="button">Learn More</span>
+                  <p>Isometric puzzle game- play a blind person exploring through a cave using echolocation to light his path.</p>
+                  <p class="buttons">
+                    <a href="https://drive.google.com/file/d/0B2xUFYO4YAPKUk9nQmVNa0xnSEk/view" target="_blank"><span class="button">Demo</span></a>
+                    <a href="https://github.com/JeffreyHsieh/Resonance" target="_blank"><span class="button">Github</span></a>
+                    <span class="button">More</span>
                   </p>
                   <span class="tag">C#</span> <span class="tag">Unity</span>
               </div>
@@ -76,8 +78,10 @@ class Projects extends Component {
               <div class="title">Creation and Conquest <hr width="40"/></div>
               <div class="description">
                   <p>Warioware like game!</p>
-                  <p>
-                    <span class="button">Demo</span> <span class="button">Learn More</span>
+                  <p class="buttons">
+                    <span class="button">Demo</span> 
+                    <a href="https://github.com/dzhan008/CNC" target="_blank"><span class="button">Github</span></a>
+                    <span class="button">More</span>
                   </p>
                   <span class="tag">C#</span> <span class="tag">Unity</span>
               </div>
@@ -88,9 +92,11 @@ class Projects extends Component {
             <div class="text-box">
               <div class="title">Spirit Runner<hr width="40"/></div>
               <div class="description">
-                  <p>Endless runner!!!!!!!!</p>
-                  <p>
-                    <span class="button">Demo</span> <span class="button">Learn More</span>
+                  <p>Endless runner game where you play as a fox roaming through a beautiful forest.</p>
+                  <p class="buttons">
+                    <span class="button">Demo</span> 
+                    <a href="https://github.com/dzhan008/spiritrunner" target="_blank"><span class="button">Github</span></a>
+                    <span class="button">More</span>
                   </p>
                   <span class="tag">Blueprints</span> <span class="tag">UE4</span>
               </div>
@@ -101,9 +107,11 @@ class Projects extends Component {
             <div class="text-box">
               <div class="title">Quick Draw <hr width="40"/></div>
               <div class="description">
-                  <p>Jackbox-like game!.</p>
+                  <p>Inspired by jackbox games, quick draw is a party game for up to 8 people where you can face opponents on a 1 on 1 battle to see who can draw the best and quick. All you need is your smart phone to play! Note: Please see the instructions in Github if you would like to demo the game!</p>
                   <p class="buttons">
-                    <span class="button">Demo</span> <span class="button">Github</span> <span class="button">More</span>
+                    <a href="https://quick-draw-game.herokuapp.com/" target="_blank"><span class="button">Demo</span></a>
+                    <a href="https://github.com/dzhan008/QuickDraw" target="_blank"><span class="button">Github</span></a>
+                    <span class="button">More</span>
                   </p>
                   <span class="tag">Python</span> <span class="tag">Flask</span>
               </div>
@@ -115,8 +123,10 @@ class Projects extends Component {
               <div class="title">Familiar <hr width="40"/></div>
               <div class="description">
                   <p>Another puzzle game!</p>
-                  <p>
-                    <span class="button">Demo</span> <span class="button">Learn More</span>
+                  <p class="buttons">
+                    <a href="https://dzhan008.itch.io/familiar"> <span class="button">Demo</span></a>
+                    <a href="https://github.com/dzhan008/QuickDraw" target="_blank"><span class="button">Github</span></a>
+                    <span class="button">More</span>
                   </p>
                   <span class="tag">C#</span> <span class="tag">Unity</span>
               </div>
@@ -128,8 +138,38 @@ class Projects extends Component {
               <div class="title">Fire Fighter VR Simulation <hr width="40"/></div>
               <div class="description">
                   <p>Simulate a firefighter!</p>
-                  <p>
-                    <span class="button">Demo</span> <span class="button">Learn More</span>
+                  <p class="buttons">
+                    <span class="button">Report</span>
+                    <a href="https://github.com/leomuteki/FireFighterProject" target="_blank"><span class="button">Github</span></a>
+                    <span class="button">More</span>
+                  </p>
+                  <span class="tag">C#</span> <span class="tag">Unity</span> <span class="tag">Oculus Rift</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-preview">
+            <img src={process.env.PUBLIC_URL + '/images/listen.png'} />
+            <div class="text-box">
+              <div class="title">Listen <hr width="40"/></div>
+              <div class="description">
+                  <p>Auditory training application that helps improve people's hearing ability through an endless runner experience. Also used as a research assessment tool at University of California, Riverside</p>
+                  <p class="buttons">
+                    <a href="https://apps.apple.com/app/listen-auditory-training/id1031353626" target="_blank"><span class="button">More</span></a>
+                  </p>
+                  <span class="tag">C#</span> <span class="tag">Unity</span> <span class="tag">Oculus Rift</span>
+              </div>
+            </div>
+          </div>
+          <div class="project-preview">
+            <img src={process.env.PUBLIC_URL + '/images/pen_me.png'} />
+            <div class="text-box">
+              <div class="title">Pen Me <hr width="40"/></div>
+              <div class="description">
+                  <p>Simulate a firefighter!</p>
+                  <p class="buttons">
+                    <span class="button">Demo</span> 
+                    <a href="https://github.com/hdoan002/PenMe" target="_blank"><span class="button">Github</span></a>
+                    <span class="button">More</span>
                   </p>
                   <span class="tag">C#</span> <span class="tag">Unity</span> <span class="tag">Oculus Rift</span>
               </div>

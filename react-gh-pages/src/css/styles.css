@@ -33,7 +33,6 @@
   color: white;
   text-align: center;
   margin: 100px 0px 0px 0px;
-  word-spacing: 0px;
 }
 
 #description {
@@ -44,15 +43,24 @@
   margin: 20px 0px 20px 0px;
 }
 
+#quote {
+  font-family: "Pavanam";
+  font-size: 30pt;
+  color: white;
+  text-align: center;
+}
+
 /******** About ********/
 .about {
   /* padding: 15% 0px 15% 0px;*/
   background-color: #4d4f6b;
+  color: white;
 }
 
 #about {
-  font-size: 20pt;
   font-family: "FFMeta";
+  font-size: 20pt;
+  color: white;
   margin-bottom: 0px;
 }
 
@@ -60,6 +68,7 @@
 
 .projects {
   background-color: #afb096;
+  color: white;
 }
 
 .project-container {
@@ -96,13 +105,16 @@
 .project-preview .title {
   font-family: 'FFMeta';
   font-size: 15pt;
+  font-weight: bold;
   text-align: center;
+  margin-top: 8%;
 }
 
 .project-preview .description {
   font-family: 'FFMeta';
   font-size: 10pt;
   margin-top: 100px;
+  padding: 0px 10% 0px 10%;
   -webkit-transition: 0.3s ease;
 }
 
@@ -117,6 +129,10 @@
 
 .project-preview .buttons {
   margin-bottom: 30px;
+}
+
+.project-preview .button {
+  margin-right: 10px;
 }
 
 .project-preview .description {
@@ -143,6 +159,15 @@
   padding: 5px 5px 5px 5px;
   font-weight: 500;
 }
+
+.project-preview a:link {
+  text-decoration: none;
+}
+
+.project-preview a:visited {
+  text-decoration: none;
+}
+
 
 /******** Contact ********/
 

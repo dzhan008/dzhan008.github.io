@@ -48,7 +48,7 @@ class Portfolio extends Component {
             <img class="icon" src={process.env.PUBLIC_URL + '/images/github.png'} />
             <button>Demo</button> <button>Learn More</button>
             <p> This is a random one liner about the project. </p>
-         </div> 
+         </div>
         </div>
       </div>
     )
