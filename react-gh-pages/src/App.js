@@ -54,10 +54,6 @@ class App extends Component {
                     to={process.env.PUBLIC_URL + 'resume.pdf'}
                     target="_blank">
                     RESUME</NavLink></li>
-                <li><NavLink exact
-                    activeStyle={{color: '#2a2f33'}}
-                    to="/portfolio">
-                    More Projects</NavLink></li>
                 <div class="underbar"></div>
               </ul>
             </nav>

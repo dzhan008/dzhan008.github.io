@@ -49,17 +49,17 @@ class Title extends Component {
   
   componentDidMount() {
    var ids = ['name_D', 'name_A', 'name_V', 'name_I', 'name_D_2', 'name_SPACE']
-   this.countDown(120, 'name_D', 0);
-   this.countDown(140, 'name_A', 1);
-   this.countDown(160, 'name_V', 2);
-   this.countDown(180, 'name_I', 3);
-   this.countDown(200, 'name_D_2', 4);
+   this.countDown(10, 'name_D', 0);
+   this.countDown(20, 'name_A', 1);
+   this.countDown(30, 'name_V', 2);
+   this.countDown(40, 'name_I', 3);
+   this.countDown(50, 'name_D_2', 4);
 
-   this.countDown(220, 'name_Z', 6);
-   this.countDown(240, 'name_H', 7);
-   this.countDown(260, 'name_A_2', 8);
-   this.countDown(280, 'name_N', 9);
-   this.countDown(300, 'name_G', 10);
+   this.countDown(60, 'name_Z', 6);
+   this.countDown(70, 'name_H', 7);
+   this.countDown(80, 'name_A_2', 8);
+   this.countDown(90, 'name_N', 9);
+   this.countDown(100, 'name_G', 10);
   }
 
   render() {

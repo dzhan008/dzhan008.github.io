@@ -10,26 +10,26 @@
 
 /* The block that defines the section itself. */
 .block {
-  height: 100vh;
-  width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 /*The surrounding content inside of a block*/
 .section {
-  padding: 200px 200px 0px 200px;
+  padding: 7%;
+  overflow:auto;
 }
-
 
 /******** Title ********/
 
 .title-page {
-  background-color: #586069;
+  background-color: #1f1e1d;
   padding-top: 200px;
 }
 
 #name {
   font-family: "Pavanam";
-  font-size: 80pt;
+  font-size: 120pt;
   color: white;
   text-align: center;
   margin: 100px 0px 0px 0px;
@@ -37,7 +37,7 @@
 
 #description {
   font-family: "Pavanam";
-  font-size: 50pt;
+  font-size: 70pt;
   color: white;
   text-align: center;
   margin: 20px 0px 20px 0px;
@@ -48,6 +48,19 @@
   font-size: 30pt;
   color: white;
   text-align: center;
+}
+
+.arrow {
+  text-align: center;
+}
+
+.arrow img {
+  height: 100px;
+  width: 100px;
+}
+
+.arrow:hover {
+  cursor: pointer;
 }
 
 /******** About ********/
@@ -69,6 +82,8 @@
 .projects {
   background-color: #afb096;
   color: white;
+  height: 100%;
+  width: 100%;
 }
 
 .project-container {
@@ -86,6 +101,7 @@
 
 
 .project-preview img {
+  position: relative;
   display: block;
   max-height: 100%;
   max-width: 100%;
