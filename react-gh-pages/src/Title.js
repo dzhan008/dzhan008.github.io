@@ -20,6 +20,8 @@ class Title extends Component {
     this.pushQuote(quotes, "Look up at the stars and not down at your feet. Try to make sense of what you see, and wonder about what makes the universe exist. Be curious.", "Stephen Hawking");
     this.pushQuote(quotes, "The will to win, the desire to succeed, the urge to reach your full potential... these are the keys that will unlock the door to personal excellence.", "Confucius");
     this.pushQuote(quotes, "The secret of getting ahead is getting started.", "Mark Twain");
+    this.pushQuote(quotes, "Begin to be now what you will be hereafter.", "William James");
+    this.pushQuote(quotes, "...life is here for us to become kinder. I live life every day hoping I was a slightly kinder person than I was the day before.", "Shoko Makinohara");
     var quote = quotes[this.getRandomNumber(0,quotes.length)];
     ReactDOM.render(quote, document.getElementById("quote"));
     }
@@ -30,16 +32,16 @@ class Title extends Component {
       <div class="title-page block" id="title-section">
         <p id="name">David Zhang </p>
         <p id="description"> Software Engineer </p>
-        <hr width="50%"/>
+        <hr width="5%"/>
         <p id="quote"></p>
-        <div class="arrow"><Link exact
-                    to="about-section"
-                    spy={true}
-                    smooth={true}
-                    offset={-50}
-                    duration={500}>
-                    <img src={process.env.PUBLIC_URL + '/images/down_arrow_white.png'}/></Link>
-        </div>
+          <Link exact
+                to="about-section"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}>
+          <div class="begin-box">Begin the Story</div>
+          </Link>
       </div>
     );
   }

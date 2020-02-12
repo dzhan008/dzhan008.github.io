@@ -24,39 +24,48 @@
 
 .title-page {
   background-color: #1f1e1d;
-  padding-top: 200px;
+  padding-top: 20%;
+  text-align: center;
 }
 
 #name {
   font-family: "Pavanam";
-  font-size: 120pt;
+  font-size: 3em;
   color: white;
-  text-align: center;
-  margin: 100px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
 }
 
 #description {
   font-family: "Pavanam";
-  font-size: 70pt;
+  font-size: 2.5em;
   color: white;
-  text-align: center;
-  margin: 20px 0px 20px 0px;
+  margin: 1% 0px 20px 0px;
 }
 
 #quote {
   font-family: "Pavanam";
-  font-size: 30pt;
+  font-size: 1.5em;
   color: white;
   text-align: center;
 }
 
-.arrow {
+.begin-box {
+  color: white;
+  padding: 0.6%;
   text-align: center;
+  box-sizing: border-box;
+  border: 0.1em solid white;
+  display: inline;
+  -webkit-transition: background-color 0.1s ease-out;
+  -moz-transition: background-color 0.1s ease-out;
+  -o-transition: background-color 0.1s ease-out;
+  transition: background-color 0.1s ease-out;
 }
 
-.arrow img {
-  height: 100px;
-  width: 100px;
+.begin-box:hover {
+  cursor: pointer;
+
+  background-color: #a1a09d;
 }
 
 .arrow:hover {
@@ -65,28 +74,36 @@
 
 /******** About ********/
 .about {
-  /* padding: 15% 0px 15% 0px;*/
   background-color: #4d4f6b;
   color: white;
+  min-width: 100vw;
 }
 
 #about {
+  padding: 0px 20% 0px 20%;
   font-family: "FFMeta";
-  font-size: 20pt;
+  font-size: 1.3em;
   color: white;
   margin-bottom: 0px;
+}
+
+/******** Experience ********/
+.experience {
+  background-color: #7a3d46;
+  color: white;
 }
 
 /******** Project ********/
 
 .projects {
-  background-color: #afb096;
+  background-color: #293557;
   color: white;
   height: 100%;
   width: 100%;
 }
 
 .project-container {
+  text-align: center;
   height: auto;
   width: auto;
 }
@@ -97,6 +114,7 @@
   position: relative;
   overflow: hidden;
   vertical-align: bottom;
+  margin: 1%;
 }
 
 
@@ -115,6 +133,7 @@
  height: 100%;
  width: 100%;
  opacity: 0;
+ background-color: rgba(0,0,0,0.9);
  transition: .3s ease;
 }
 
@@ -136,7 +155,7 @@
 
 .project-preview:hover .text-box {
  opacity: 1;
- background-color: rgba(0,0,0,0.3);
+ background-color: rgba(0,0,0,0.75);
 }
 
 .project-preview:hover .description {

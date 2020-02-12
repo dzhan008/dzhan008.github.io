@@ -54,7 +54,7 @@ class Projects extends Component {
     return (
      <div class="projects block" id="projects-section">
        <div class="section">
-        <h1 class="header"> And he worked on these creations... </h1>
+        <h1 class="header"> He worked on these creations... </h1>
         <div class="project-container" id="project-container">
 
           <div class="project-preview">

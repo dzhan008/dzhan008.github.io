@@ -34,6 +34,15 @@ class App extends Component {
                 <li><Link exact
                     activeClass="active"
                     activeStyle={{color: '#2a2f33'}}
+                    to="experience-section"
+                    spy={true}
+                    smooth={true}
+                    offset={0}
+                    duration={500}>
+                    EXPERIENCE</Link></li>
+                <li><Link exact
+                    activeClass="active"
+                    activeStyle={{color: '#2a2f33'}}
                     to="projects-section"
                     spy={true}
                     smooth={true}
