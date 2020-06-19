@@ -19,16 +19,16 @@ class Experience extends Component {
                   float: 'left',
                   margin: '-5% 0px 0px 0px',
                   padding: '6% 10% 6% 10%',
-                  background: '#c47923',
+                  background: '#8551a8',
                   fontWeight: 'bold',
                   color: '#fff',
                 }}
               >
-              Mar 2020 – Present
+              Sept 2018 – Present
               </div>
               )}
-              style={{ color: '#7d4f9c' }}
-              dateInnerStyle={{ background: '#c47923', color: '#fff' }}
+              style={{ color: '#8551a8' }}
+              dateInnerStyle={{ background: '#8551a8', color: '#fff' }}
               bodyContainerStyle={{
               background: '#ddd',
               padding: '20px',
@@ -36,16 +36,15 @@ class Experience extends Component {
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
               }}
               >
-              <h3>Software Engineer, Twitch</h3>
+              <h3>Software Engineer, Amazon.com Inc.</h3>
               <h4>San Francisco, California</h4>
               <p>
                 I'm currently working on a couple of services that help provide recommended streams to users
                 at Twitch!
               </p>
             </TimelineItem>
-           <TimelineItem
+            <TimelineItem
               key="002"
-              style={{ color: '#61b8ff' }}
               dateComponent={(
               <div
                 style={{
@@ -53,13 +52,12 @@ class Experience extends Component {
                   float: 'left',
                   margin: '-5% 0px 0px 0px',
                   padding: '6% 10% 6% 10%',
-                  background: '#61b8ff',
+                  background: '#c47923',
                   fontWeight: 'bold',
                   color: '#fff',
                 }}
               >
-              >
-              Sept 2018 – Mar 2020
+              Sept 2018 – Present
               </div>
               )}
               style={{ color: '#c47923' }}
@@ -85,7 +83,7 @@ class Experience extends Component {
               </p>
             </TimelineItem>
            <TimelineItem
-              key="002"
+              key="003"
               style={{ color: '#61b8ff' }}
               dateComponent={(
               <div
@@ -124,7 +122,7 @@ class Experience extends Component {
               </p>
            </TimelineItem>
           <TimelineItem
-            key="003"
+            key="004"
             style={{ color: '#59ab94' }}
             dateComponent={(
             <div
