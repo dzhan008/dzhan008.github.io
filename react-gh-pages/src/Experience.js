@@ -24,7 +24,7 @@ class Experience extends Component {
                   color: '#fff',
                 }}
               >
-              Sept 2018 – Present
+              Apr 2020 – Present
               </div>
               )}
               style={{ color: '#8551a8' }}
@@ -57,7 +57,7 @@ class Experience extends Component {
                   color: '#fff',
                 }}
               >
-              Sept 2018 – Present
+              Sept 2018 – Mar 2020
               </div>
               )}
               style={{ color: '#c47923' }}
