@@ -24,7 +24,42 @@ class Experience extends Component {
                   color: '#fff',
                 }}
               >
-              Sept 2018 – Present
+              Mar 2020 – Present
+              </div>
+              )}
+              style={{ color: '#7d4f9c' }}
+              dateInnerStyle={{ background: '#c47923', color: '#fff' }}
+              bodyContainerStyle={{
+              background: '#ddd',
+              padding: '20px',
+              borderRadius: '8px',
+              boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
+              }}
+              >
+              <h3>Software Engineer, Twitch</h3>
+              <h4>San Francisco, California</h4>
+              <p>
+                I'm currently working on a couple of services that help provide recommended streams to users
+                at Twitch!
+              </p>
+            </TimelineItem>
+           <TimelineItem
+              key="002"
+              style={{ color: '#61b8ff' }}
+              dateComponent={(
+              <div
+                style={{
+                  display: 'block',
+                  float: 'left',
+                  margin: '-5% 0px 0px 0px',
+                  padding: '6% 10% 6% 10%',
+                  background: '#61b8ff',
+                  fontWeight: 'bold',
+                  color: '#fff',
+                }}
+              >
+              >
+              Sept 2018 – Mar 2020
               </div>
               )}
               style={{ color: '#c47923' }}
@@ -39,7 +74,7 @@ class Experience extends Component {
               <h3>Software Engineer, Amazon.com Inc.</h3>
               <h4>Seattle, Washington</h4>
               <p>
-                I'm currently working on a service that provides expected delivery dates to customers.
+                I worked on a service that provides expected delivery dates to customers.
                 We vend all the ways we can ship a product to your doorstep. Our team also plays a part 
                 in managing the transportation network at Amazon!
               </p>

@@ -78,7 +78,7 @@ class Projects extends Component {
               <div class="description">
                   <p>A Warioware-like game where you play head to head with another friend across multiple minigames! You can create characters with different RPG stats that suit your play style.</p>
                   <p class="buttons">
-                    <a href="https://drive.google.com/file/d/0B_dRwa4KtnbWd3I1VWZUYUpYZFE/view"><span class="button">Demo</span></a>
+                    <a href="https://drive.google.com/file/d/0B2xUFYO4YAPKbjNTbloydDBrM1k/view?usp=sharing"><span class="button">Demo</span></a>
                     <a href="https://github.com/dzhan008/CNC" target="_blank"><span class="button">Github</span></a>
                   </p>
                   <span class="tag">C#</span> <span class="tag">Unity</span>
