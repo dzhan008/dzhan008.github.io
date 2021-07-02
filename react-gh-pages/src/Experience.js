@@ -36,7 +36,7 @@ class Experience extends Component {
               boxShadow: '0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.2)',
               }}
               >
-              <h3>Software Engineer, Amazon.com Inc.</h3>
+              <h3>Software Engineer, Twitch</h3>
               <h4>San Francisco, California</h4>
               <p>
                 I'm currently working on a couple of services that help provide recommended streams to users

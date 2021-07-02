@@ -106,7 +106,7 @@ class Projects extends Component {
               <div class="description">
                   <p>Isometric puzzle game- play a blind person exploring through a cave using echolocation to light his path.</p>
                   <p class="buttons">
-                    <a href="https://drive.google.com/file/d/0B2xUFYO4YAPKUk9nQmVNa0xnSEk/view" target="_blank"><span class="button">Demo</span></a>
+                    <a href="https://drive.google.com/file/d/0B_dRwa4KtnbWRmpTZTg3RWpuaFk/view" target="_blank"><span class="button">Demo</span></a>
                     <a href="https://github.com/JeffreyHsieh/Resonance" target="_blank"><span class="button">Github</span></a>
                   </p>
                   <span class="tag">C#</span> <span class="tag">Unity</span>
@@ -159,7 +159,7 @@ class Projects extends Component {
             <div class="text-box">
               <div class="title">Cheshire's Game <hr width="40"/></div>
               <div class="description">
-                  <p>Scheduling tool used to plans your meetings with other people by automatically determining ideal times based on everyone's availability.</p>
+                  <p>Text based choose your own adventure RPG where you play as an amnesic slaying monsters in an unknown world.</p>
                   <p class="buttons">
                     <a href="https://drive.google.com/open?id=0B2xUFYO4YAPKQzkzQTNXNXYtU2s"><span class="button">Demo</span></a>
                     <a href="https://github.com/dzhan008/cheshiregame" target="_blank"><span class="button">Github</span></a>
@@ -168,20 +168,6 @@ class Projects extends Component {
               </div>
             </div>
           </div>
-          <div class="project-preview">
-            <img src={process.env.PUBLIC_URL + '/images/pen_me.png'} />
-            <div class="text-box">
-              <div class="title">Pen Me <hr width="40"/></div>
-              <div class="description">
-                  <p>Scheduling tool used to plans your meetings with other people by automatically determining ideal times based on everyone's availability.</p>
-                  <p class="buttons">
-                    <a href="https://github.com/hdoan002/PenMe" target="_blank"><span class="button">Github</span></a>
-                  </p>
-                  <span class="tag">Bootstrap</span> <span class="tag">Firebase</span>
-              </div>
-            </div>
-          </div>
-
         </div>
        </div>
      </div>
