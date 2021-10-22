@@ -121,7 +121,7 @@ class Projects extends Component {
                   <p>Puzzle game where you lead a cat to her food with lures! Stragetically place the lures in the right positions to make sure the cat goes to the end without hitting any obstacles.</p>
                   <p class="buttons">
                     <a href="https://dzhan008.itch.io/familiar"> <span class="button">Demo</span></a>
-                    <a href="https://github.com/dzhan008/QuickDraw" target="_blank"><span class="button">Github</span></a>
+                    <a href="https://github.com/dhoun001/ggj2019" target="_blank"><span class="button">Github</span></a>
                   </p>
                   <span class="tag">C#</span> <span class="tag">Unity</span>
               </div>
