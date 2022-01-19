@@ -22,6 +22,8 @@ class Title extends Component {
     this.pushQuote(quotes, "The secret of getting ahead is getting started.", "Mark Twain");
     this.pushQuote(quotes, "Begin to be now what you will be hereafter.", "William James");
     this.pushQuote(quotes, "...life is here for us to become kinder. I live life every day hoping I was a slightly kinder person than I was the day before.", "Shoko Makinohara");
+    this.pushQuote(quotes, "The best time to plant a tree was 20 years ago. The second best time is now.", "Chinese Proverb");
+    this.pushQuote(quotes, "Ever tried. Ever failed. No matter. Try again. Fail again. Fail better.", "Samuel Beckett");
     var quote = quotes[this.getRandomNumber(0,quotes.length)];
     ReactDOM.render(quote, document.getElementById("quote"));
     }
