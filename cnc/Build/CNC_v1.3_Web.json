@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "CNC",
+"dataUrl": "CNC_v1.3_Web.data.unityweb",
+"asmCodeUrl": "CNC_v1.3_Web.asm.code.unityweb",
+"asmMemoryUrl": "CNC_v1.3_Web.asm.memory.unityweb",
+"asmFrameworkUrl": "CNC_v1.3_Web.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
