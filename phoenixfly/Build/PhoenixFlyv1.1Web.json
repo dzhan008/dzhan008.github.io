@@ -1,0 +1,13 @@
+{
+"companyName": "Gamespawn",
+"productName": "Phoenix Fly",
+"dataUrl": "PhoenixFlyv1.1Web.data.unityweb",
+"asmCodeUrl": "PhoenixFlyv1.1Web.asm.code.unityweb",
+"asmMemoryUrl": "PhoenixFlyv1.1Web.asm.memory.unityweb",
+"asmFrameworkUrl": "PhoenixFlyv1.1Web.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
